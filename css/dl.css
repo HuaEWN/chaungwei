@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.topfa{
+	width: 100%;
+	height: 100px;
+}
+.topson{
+	width: 1090px;
+	height: 100px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.topson .topl{
+	float: left;
+	width: 266px;
+	height: 100px;
+}
+.topl a{
+	display: inline-block;
+}
+.topl a img{
+	display: inline-block;
+	width: 266px;
+	height: 25px;
+	margin-top: 40px;
+}
+.topson .topr{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	float: right;
+	font-size: 12px;
+	color: #000;
+}
+.topr a{
+	font-size: 12px;
+	color: red;
+}
+
+/*中间*/
+.dengfa{
+	width: 100%;
+	background-color: #fefefe;
+}
+.dengson{
+	width: 1090px;
+	overflow: hidden;
+	margin: 10px auto;
+	box-shadow: 0 0 50px -10px rgba(0,0,0,.2);
+}
+.dengson .leftimg{
+	float: left;
+	width: 690px;
+	height: 550px;
+}
+.leftimg a{
+	display: block;
+	width: 690px;
+	height: 550px;
+}
+
+/*右边表单*/
+.tabs{
+	width: 400px;
+	float: right;
+	padding: 30px;
+}
+.tabs span{
+	display: block;
+	width: 332px;
+	height: 40px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	color: #000;
+	font-size: 23px;
+	line-height: 40px;
+}
+.tabs .inp{
+	width: 332px;
+	height: 47px;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 15px;
+	border-radius: 3px;
+}
+.tabs .inp input{
+	width: 330px;
+	height: 45px;
+	text-indent: 7px;
+	outline: none;
+	border: 0;
+}
+.tabs .yan{
+	width: 330px;
+	height: 45px;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 45px;
+	overflow: hidden;
+	border-radius: 3px;
+}
+.tabs .yan #yzm{
+	width: 150px;
+	height: 45px;
+	outline: none;
+	float: left;
+	border: 0;
+	text-indent: 7px;
+}
+.tabs .yan .yanson{
+	width: 175px;
+	height: 45px;
+	float: right;
+	position: relative;
+}
+.yan .yanson .yz{
+	width: 64px;
+	height: 30px;
+	border: 1px solid #000;
+	margin-left: 20px;
+	margin-top: 9px;
+	display: inline-block;
+}
+.yan .yanson #changess{
+	font-size: 14px;
+    color: #333;
+    border: none;
+    background: none;
+    vertical-align: super;
+    cursor: pointer;
+    outline: none;
+}
+.tabs #deng{
+	width: 330px;
+    height: 45px;
+    border: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2e8ae4;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+.tabs .xx{
+	width: 330px;
+    height: 45px;
+    overflow: hidden;
+}
+.xx .xxl{
+	float: left;
+	line-height: 30px;
+}
+.xx .xxl label{
+	font-size: 12px;
+	color: #999;
+}
+.xx .xxl input{
+	vertical-align: middle;
+}
+.xx .xxr{
+	float: right;
+	line-height: 30px;
+}
+.xx .xxr a{
+	font-size: 12px;
+	color: #333;
+}
+
+
+/*底部*/
+.foots{
+	widows: 100%;
+	height: 100px;
+}
+.ft{
+	width: 600px;
+	height: 12px;
+	margin: 30px auto 0;
+}
+.ft ul li{
+	float: left;
+	font-size: 12px;
+	color: #999;
+}
+.ft ul li a{
+	font-size: 12px;
+	color: #999;
+	margin-right: 12px;
+	margin-left: 12px;
+}
+.foots .fb{
+	width: 255px;
+	height: 12px;
+	font-size: 12px;
+	color: #999;
+	margin: 15px auto 0;
+}

@@ -1,0 +1,717 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.topfa{
+	width: 100%;
+	height: 100px;
+	box-shadow: 0 0 20px -4px rgba(0,0,0,.2);
+	margin-bottom: 30px;
+}
+.topson{
+	width: 1090px;
+	height: 100px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.topson .topl{
+	float: left;
+	width: 266px;
+	height: 100px;
+}
+.topl a{
+	display: inline-block;
+}
+.topl a img{
+	display: inline-block;
+	width: 266px;
+	height: 25px;
+	margin-top: 40px;
+}
+.topson .topr{
+	width: 120px;
+	height: 100px;
+	line-height: 100px;
+	float: right;
+	font-size: 14px;
+	color: #000;
+}
+.topr a{
+	font-size: 14px;
+	color: red;
+}
+
+
+
+/*中间*/
+.phone{
+	width: 100%;
+	height: 550px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+/*一页面*/
+.phonebox{
+	width: 540px;
+	height: 550px;
+	box-shadow: 0 0 20px -4px rgba(0,0,0,.2);
+	padding: 20px 20px 50px 20px;
+	position: absolute;
+	left: 360px;
+	display: block;
+	z-index: 3;
+}
+.phonebox .xx{
+	width: 450px;
+	height: 376px;
+	/*background-color: #ccc;*/
+	margin-left: 25px;
+}
+
+.xx .numberfa{
+	margin-top: 10px;
+    width: 450px;
+    height: 120px;
+}
+
+.xx .number{
+	
+	width: 450px;
+	height: 120px;
+	position: absolute;
+	/*background-color: yellowgreen;*/
+}
+
+
+
+/*表单*/
+.xx .tuy{
+	width: 450px;
+	height: 50px;
+	border: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.xx .tuy i{
+	font-size: 24px;
+    line-height: 50px;
+    color: #999;
+    float: left;
+}
+.xx .tuy #yzms{
+	border: 0;
+    outline: none;
+    height: 48px;
+    float: left;
+    text-indent: 6px;
+}
+.xx .tuy .yanri{
+	width: 130px;
+	height: 50px;
+	float: right;
+}
+.xx .tuy .yanri .yanz{
+	width: 65px;
+	height: 30px;
+	border: 1px solid #000;
+	display: inline-block;
+    margin-top: 9px;
+}
+
+.xx .tuy .yanri #changes{
+	    border: 0;
+    font-size: 13px;
+    color: #000;
+    width: 45px;
+    height: 20px;
+    background: none;
+    vertical-align: super;
+    cursor: pointer;
+    outline: none;
+}
+
+/*显示状态*/
+.xx .bottomxx{
+	width: 450px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 15px;
+}
+.xx .bottomxx i{
+	font-size: 13px;
+	color: #999;
+}
+
+/*手机号*/
+.xx .tels{
+	width: 450px;
+	height: 50px;
+	border: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.xx .tels i{
+	font-size: 24px;
+    line-height: 50px;
+    color: #999;
+    float: left;
+}
+.xx .tels input{
+	border: 0;
+    outline: none;
+    height: 48px;
+    width: 200px;
+    float: left;
+    text-indent: 6px;
+}
+
+/*手机验证码*/
+.xx .pheyz{
+	width: 450px;
+	height: 50px;
+	border: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.xx .pheyz i{
+	font-size: 24px;
+    line-height: 50px;
+    color: #999;
+    float: left;
+}
+.xx .pheyz #telyz{
+	border: 0;
+    outline: none;
+    height: 48px;
+    width: 200px;
+    float: left;
+    text-indent: 6px;
+}
+.xx .pheyz .sendyz{
+	width: 100px;
+	height: 48px;
+	line-height: 48px;
+	float: right;
+	background-color: #ddd;
+}
+.xx .pheyz .sendyz #seyz{
+	font-size: 13px;
+	cursor: pointer;
+	width: 100px;
+	height: 48px;
+	line-height: 48px;
+	color: #000;
+	text-align: center;
+	border: 0;
+	outline: none;
+}
+
+/*下一步*/
+.phonebox .overs{
+	width: 450px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.phonebox .overs input{
+	border: 0;
+	width: 450px;
+	height: 48px;
+	font-size: 13px;
+	color: #fff;
+	background-color: #2e8ae4;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+
+
+/*圆*/
+.xx .number .one{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	left: 57px;
+	background-color: #2e8ae4;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	color: #fff;
+}
+.xx .number .two{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	left: 207px;
+	background-color: #eff3f8;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	color: #999;
+}
+.xx .number .three{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	left: 357px;
+	background-color: #eff3f8;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	color: #999;
+}
+
+/*线*/
+.xx .number .lineone{
+	height: 5px;
+	width: 60px;
+	background-color: #2e8ae4;
+	position: absolute;
+	top: 15px;
+}
+.xx .number .linetwo{
+	height: 5px;
+	width: 120px;
+	background-color: #eff3f8;
+	position: absolute;
+	top: 15px;
+	left: 92px;
+}
+.xx .number .linethree{
+	height: 5px;
+	width: 116px;
+	background-color: #eff3f8;
+	position: absolute;
+	top: 15px;
+	left: 241px;
+}
+.xx .number .linefour{
+	height: 5px;
+	width: 60px;
+	background-color: #eff3f8;
+	position: absolute;
+	top: 15px;
+	left: 390px;
+}
+/*文字*/
+.xx .number .yz{
+	font-size: 13px;
+	color: #466faa;
+	position: absolute;
+	top: 50px;
+	left: 43px;
+}
+.xx .number .tx{
+	font-size: 13px;
+	color: #999;
+	position: absolute;
+	top: 50px;
+	left: 185px;
+}
+.xx .number .suc{
+	font-size: 13px;
+	color: #999;
+	position: absolute;
+	top: 50px;
+	left: 349px;
+}
+
+
+
+/*二页面*/
+.phoneboxas{
+	width: 540px;
+	height: 470px;
+	box-shadow: 0 0 20px -4px rgba(0,0,0,.2);
+	padding: 20px 20px 50px 20px;
+	position: absolute;
+	left: 360px;
+	display: none;
+	z-index: 2;
+}
+.phoneboxas .xxas{
+	width: 450px;
+	height: 320px;
+	/*background-color: #ccc;*/
+	margin-left: 25px;
+}
+
+.xxas .numberfaas{
+	margin-top: 10px;
+    width: 450px;
+    height: 120px;
+}
+
+.xxas .numberas{
+	
+	width: 450px;
+	height: 120px;
+	position: absolute;
+	/*background-color: yellowgreen;*/
+}
+
+/*圆*/
+.xxas .numberas .oneas{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	left: 57px;
+	background-color: #2e8ae4;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	color: #fff;
+}
+.xxas .numberas .twoas{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	left: 207px;
+	background-color: #2e8ae4;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	color: #fff;
+}
+.xxas .numberas .threeas{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	left: 357px;
+	background-color: #eff3f8;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	color: #999;
+}
+
+/*线*/
+.xxas .numberas .lineoneas{
+	height: 5px;
+	width: 60px;
+	background-color: #2e8ae4;
+	position: absolute;
+	top: 15px;
+}
+.xxas .numberas .linetwoas{
+	height: 5px;
+	width: 120px;
+	background-color: #2e8ae4;
+	position: absolute;
+	top: 15px;
+	left: 92px;
+}
+.xxas .numberas .linethreeas{
+	height: 5px;
+	width: 116px;
+	background-color: #eff3f8;
+	position: absolute;
+	top: 15px;
+	left: 241px;
+}
+.xxas .numberas .linefouras{
+	height: 5px;
+	width: 60px;
+	background-color: #eff3f8;
+	position: absolute;
+	top: 15px;
+	left: 390px;
+}
+/*文字*/
+.xxas .numberas .yzas{
+	font-size: 13px;
+	color: #466faa;
+	position: absolute;
+	top: 50px;
+	left: 43px;
+}
+.xxas .numberas .txas{
+	font-size: 13px;
+	color: #466faa;
+	position: absolute;
+	top: 50px;
+	left: 185px;
+}
+.xxas .numberas .sucas{
+	font-size: 13px;
+	color: #999;
+	position: absolute;
+	top: 50px;
+	left: 349px;
+}
+
+/*内容及验证表单*/
+.xxas .passwor{
+	width: 450px;
+	height: 50px;
+	border: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.xxas .passwor i{
+	font-size: 24px;
+    line-height: 50px;
+    color: #999;
+    float: left;
+}
+.xxas .passwor input{
+	border: 0;
+    outline: none;
+    height: 48px;
+    width: 200px;
+    float: left;
+    text-indent: 6px;
+}
+
+/*确认密码*/
+.xxas .passwored{
+	width: 450px;
+	height: 50px;
+	border: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.xxas .passwored i{
+	font-size: 24px;
+    line-height: 50px;
+    color: #999;
+    float: left;
+}
+.xxas .passwored input{
+	border: 0;
+    outline: none;
+    height: 48px;
+    width: 200px;
+    float: left;
+    text-indent: 6px;
+}
+
+/*显示状态*/
+.xxas .bottomxx{
+	width: 450px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 15px;
+}
+.xxas .bottomxx i{
+	font-size: 13px;
+	color: #999;
+}
+/*下一步*/
+.phoneboxas .overtwo{
+	width: 450px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.phoneboxas .overtwo input{
+	border: 0;
+	width: 450px;
+	height: 48px;
+	font-size: 13px;
+	color: #fff;
+	background-color: #2e8ae4;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+/*三页面*/
+.phoneboxss{
+	width: 540px;
+	height: 470px;
+	box-shadow: 0 0 20px -4px rgba(0,0,0,.2);
+	padding: 20px 20px 50px 20px;
+	position: absolute;
+	left: 360px;
+	display: none;
+	z-index: 1;
+}
+.phoneboxss .xxss{
+	width: 450px;
+	height: 376px;
+	/*background-color: #ccc;*/
+	margin-left: 25px;
+}
+
+.xxss .numberfass{
+	margin-top: 10px;
+    width: 450px;
+    height: 120px;
+}
+
+.xxss .numberss{
+	
+	width: 450px;
+	height: 120px;
+	position: absolute;
+	/*background-color: yellowgreen;*/
+}
+
+/*圆*/
+.xxss .numberss .oness{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	left: 57px;
+	background-color: #2e8ae4;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	color: #fff;
+}
+.xxss .numberss .twoss{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	left: 207px;
+	background-color: #2e8ae4;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	color: #fff;
+}
+.xxss .numberss .threess{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	left: 357px;
+	background-color: #2e8ae4;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	color: #fff;
+}
+
+/*线*/
+.xxss .numberss .lineoness{
+	height: 5px;
+	width: 60px;
+	background-color: #2e8ae4;
+	position: absolute;
+	top: 15px;
+}
+.xxss .numberss .linetwoss{
+	height: 5px;
+	width: 120px;
+	background-color: #2e8ae4;
+	position: absolute;
+	top: 15px;
+	left: 92px;
+}
+.xxss .numberss .linethreess{
+	height: 5px;
+	width: 116px;
+	background-color: #2e8ae4;
+	position: absolute;
+	top: 15px;
+	left: 241px;
+}
+.xxss .numberss .linefourss{
+	height: 5px;
+	width: 60px;
+	background-color: #2e8ae4;
+	position: absolute;
+	top: 15px;
+	left: 390px;
+}
+/*文字*/
+.xxss .numberss .yzss{
+	font-size: 13px;
+	color: #466faa;
+	position: absolute;
+	top: 50px;
+	left: 43px;
+}
+.xxss .numberss .txss{
+	font-size: 13px;
+	color: #466faa;
+	position: absolute;
+	top: 50px;
+	left: 185px;
+}
+.xxss .numberss .sucss{
+	font-size: 13px;
+	color: #466faa;
+	position: absolute;
+	top: 50px;
+	left: 349px;
+}
+
+/*内容*/
+.xxss .trueimg{
+	width: 94px;
+	height: 86px;
+	margin: 40px auto 15px;
+}
+.xxss p{
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+}
+.xxss .suca{
+	text-align: center;
+	
+}
+.xxss .suca a{
+	font-size: 14px;
+	color: red;
+	cursor: pointer;
+	display: inline-block;
+	
+}
+
+
+
+
+
+/*底部*/
+.foots{
+	widows: 100%;
+	height: 100px;
+}
+.ft{
+	width: 600px;
+	height: 12px;
+	margin: 30px auto 0;
+}
+.ft ul li{
+	float: left;
+	font-size: 12px;
+	color: #999;
+}
+.ft ul li a{
+	font-size: 12px;
+	color: #999;
+	margin-right: 12px;
+	margin-left: 12px;
+}
+.foots .fb{
+	width: 255px;
+	height: 12px;
+	font-size: 12px;
+	color: #999;
+	margin: 15px auto 0;
+}
